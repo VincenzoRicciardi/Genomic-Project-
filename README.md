@@ -53,9 +53,8 @@ Paired-end FASTQ files: \*\_R1.fq.gz \*\_R2.fq.gz
 ## Configuration before running the pipeline 
 
 Before running the pipeline, you must update file paths to match your
-system. This workflow uses absolute paths (e.g.
-`/home/BCG2026_exam/...`) that are specific to the original server
-environment and will not work on other machines without modification. \|
+system. This workflow uses absolute paths (e.g.`/home/BCG2026_exam/...`) that are specific to the original server
+environment and will not work on other machines without modification. \
 
 ## Required modifications
 
