@@ -11,7 +11,6 @@ focusing on chromosome 20 (GRCh38.p14 assembly).
 The pipeline is written in Bash and supports processing of multiple
 trios iteratively.
 
-------------------------------------------------------------------------
 
 ## Pipeline Structure
 
@@ -23,8 +22,6 @@ The pipeline consists of the following steps:
 4.  Variant Calling
 5.  Variant Filtering
 6.  Coverage Track Generation
-
-------------------------------------------------------------------------
 
 ## Requirements
 
@@ -48,9 +45,8 @@ The pipeline consists of the following steps:
 -   `samples.txt` (sample list): file containing the sequence of samples
     in each trio (child, father, mother)
 
-------------------------------------------------------------------------
 
-### 🧬 Raw Sequencing Data
+### Raw Sequencing Data
 
 Paired-end FASTQ files: \*\_R1.fq.gz \*\_R2.fq.gz
 
@@ -96,8 +92,6 @@ For each case:
 -   Raw VCF (.vcf.gz)
 -   Filtered VCF (.cand.vcf)
 -   Coverage tracks (\*.bg)
-
-------------------------------------------------------------------------
 
 ## Notes
 
